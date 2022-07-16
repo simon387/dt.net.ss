@@ -3,8 +3,8 @@
 $dbDetails = array(
 	'host' => 'localhost',
 	'user' => 'root',
-	'pass' => '',
-	'db' => 'demo'
+	'pass' => 'root',
+	'db' => 'dtnetss'
 );
 // mysql db table to use
 $table = 'users';
@@ -38,4 +38,5 @@ $columns = array(
 require 'ssp.class.php';
 // Output data as json format
 echo json_encode(
-	SSP::simple($_GET, $dbDetails, $table, $primaryKey, $columns);
+	SSP::simple($_GET, $dbDetails, $table, $primaryKey, $columns)
+);
