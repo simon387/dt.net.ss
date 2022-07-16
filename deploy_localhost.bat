@@ -1,2 +1,2 @@
-rmdir C:\xampp\htdocs\dd.net.ss /S /Q
-Xcopy /E /I ..\poster\ C:\xampp\htdocs\dd.net.ss
+rmdir C:\xampp\htdocs\dt.net.ss /S /Q
+Xcopy /E /I ..\dt.net.ss\ C:\xampp\htdocs\dt.net.ss
